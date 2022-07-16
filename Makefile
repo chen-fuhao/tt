@@ -1,3 +1,5 @@
+#可参考
+
 AR = /usr/bin/ar
 CC = /usr/bin/gcc
 INSTALL = /usr/bin/install
