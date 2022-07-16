@@ -3,7 +3,6 @@
 #include <stdarg.h>
 #include <time.h>
 #include <unistd.h>
-
 #include "my-log/log.h"
 
 #define HIGHLIGHT "1"
