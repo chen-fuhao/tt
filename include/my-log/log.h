@@ -68,7 +68,6 @@ void myhex(log_level logLevel, const char *file, const char *function, int line,
 #define function_return_void_log  {mylog(LEVEL_TARCE, __FILE__, __FUNCTION__, __LINE__, "%s_TAG GOODBYE", __FUNCTION__);return;}
 #define function_return_log(ret)  {mylog(LEVEL_TARCE, __FILE__, __FUNCTION__, __LINE__, "%s_TAG GOODBYE (%d, 0x%x)", __FUNCTION__, (ret), (ret));return (ret);}
 #define function_break_ret_log  {mylog(LEVEL_TARCE,__FILE__, __FUNCTION__, __LINE__, "BREAK(%d)", ret);break;}
-
 #define SLEEP(t)	sleep(t)
 
 #include <pthread.h>
